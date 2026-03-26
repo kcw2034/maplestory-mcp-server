@@ -1,6 +1,6 @@
 [project]
 name = "maplestory-mcp-server"
-version = "1.0.0"
+version = "1.0.1"
 description = "MCP server for Nexon MapleStory OpenAPI - query character info, stats, equipment, rankings, union, guild, and game notices"
 readme = "README.md"
 requires-python = ">=3.13"

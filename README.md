@@ -89,3 +89,5 @@ Add this to your Claude Desktop config (`claude_desktop_config.json`):
 ## License
 
 [MIT](LICENSE)
+
+<!-- mcp-name: io.github.kcw2034/maplestory-mcp-server -->
