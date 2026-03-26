@@ -1,10 +1,28 @@
 [project]
 name = "maplestory-mcp-server"
-version = "0.1.0"
-description = "MapleStory OpenAPI MCP Server"
+version = "1.0.0"
+description = "MCP server for Nexon MapleStory OpenAPI - query character info, stats, equipment, rankings, union, guild, and game notices"
 readme = "README.md"
 requires-python = ">=3.13"
+license = "MIT"
+authors = [{ name = "kcw2034" }]
+keywords = ["mcp", "maplestory", "nexon", "openapi", "game"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: MIT License",
+]
 dependencies = [
     "fastmcp>=3.1.1",
     "httpx>=0.28.1",
 ]
+
+[project.scripts]
+maplestory-mcp-server = "server:mcp.run"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+include = ["server.py"]
