@@ -1,0 +1,10 @@
+[project]
+name = "maplestory-mcp-server"
+version = "0.1.0"
+description = "MapleStory OpenAPI MCP Server"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=3.1.1",
+    "httpx>=0.28.1",
+]
